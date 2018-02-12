@@ -1,0 +1,33 @@
+﻿[
+  {
+    "UpdaterType": "xml",
+
+    //(optionally)
+    // "DateFormats":date formats using regex notation
+
+    //(optionally)
+    //"OutputFromat": date format which is used, when writing to the file. Default null
+
+    //Files to update
+    "Path": "Employees.xml;Orders.xml;Products.xml"
+
+    //(optionally)
+    //"AddInfo": name of xml nodes, which has datetime type. It can make parsing faster
+  },
+  {
+    "UpdaterType": "sql",
+
+    //(optionally)
+    // "DateFormats":date formats using regex notation
+
+    //(optionally)
+    //"OutputFromat": date format which is used, when writing to the file. Default null
+
+    //Files to update
+    "Path": "EqDemoDb.sql",
+
+    //or mysql
+    "AddInfo": "msserver"
+  }
+
+]
